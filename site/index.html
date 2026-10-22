@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arnav Brahmasandra | Math & Science Tutoring in Berkeley</title>
+  <meta name="description" content="One-on-one math, chemistry, physics, statistics, and computer science tutoring with Arnav Brahmasandra, a UC Berkeley PhD student and 2021 USNCO Top 20 finalist. In Berkeley and online.">
+  <meta name="theme-color" content="#162d3d">
+  <style>
+    /* EDIT COLORS HERE. All styles live in this file; no installation needed. */
+    :root{--navy:#162d3d;--cream:#f8f6f0;--gold:#e3ba61;--ink:#203440;--muted:#53646c;--line:#d8ddd7;--white:#fffefa}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit}a:focus-visible{outline:3px solid #a8791e;outline-offset:6px}::selection{background:var(--gold);color:var(--navy)}.wrap{width:min(1120px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:20px;top:-80px;background:white;padding:10px;z-index:10}.skip:focus{top:10px}
+    header{border-bottom:1px solid var(--line)}.nav{min-height:94px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{text-decoration:none;font-weight:700;letter-spacing:-.5px;font-size:18px;display:flex;align-items:center;gap:12px}.monogram{width:38px;height:38px;border:1px solid #9ca8aa;display:grid;place-items:center;font-family:Georgia,serif;font-weight:400;font-size:20px}.nav-links{display:flex;align-items:center;gap:28px;font-size:13px}.nav-links a{text-decoration:none}.nav-links a:hover{text-decoration:underline;text-underline-offset:6px}.nav-links .nav-contact{border:1px solid var(--navy);padding:9px 17px}
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:65px;align-items:center;padding:85px 0 75px}.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:2px;font-weight:700;display:flex;align-items:center;gap:9px}.dot{width:6px;height:6px;border-radius:50%;background:#8b692c;display:inline-block}h1,h2,h3,p{margin-top:0}h1,h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-2px;line-height:1.08}h1{font-size:clamp(45px,5.2vw,70px);margin:23px 0}h1 em{color:#7c602c;font-weight:400}p{color:var(--muted)}.intro{font-size:17px;max-width:490px;margin-bottom:28px}.button{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;padding:14px 22px;text-decoration:none;font-size:14px;font-weight:700;background:var(--navy);color:white;transition:background .15s}.button:hover{background:#28485d}.hero-note{font-size:12px;margin:16px 0 0}
+    .background-card{background:var(--navy);color:var(--cream);padding:32px;border-radius:2px}.background-card .eyebrow{color:var(--gold)}.background-card dl{margin:24px 0 0}.background-card dl>div{padding:20px 0;border-top:1px solid #56707d}.background-card dl>div:last-child{padding-bottom:0}.background-card dt{font-family:Georgia,serif;font-size:25px;line-height:1.25;margin-bottom:8px}.background-card dd{margin:0;color:#d0dadd;font-size:15px;line-height:1.65}
+    section{scroll-margin-top:25px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:34px}h2{font-size:clamp(35px,4vw,46px);margin:15px 0 0}.section-heading>p{max-width:330px;font-size:16px;margin-bottom:0}.subjects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:24px}.subject{padding:30px 27px;background:var(--white);border:1px solid var(--line)}.subject-number{font-size:11px;letter-spacing:1px;color:var(--muted);display:flex;justify-content:space-between;margin-bottom:40px}.subject h3{font-family:Georgia,serif;font-size:27px;font-weight:400;letter-spacing:-.6px;line-height:1.2;margin-bottom:16px}.subject p{font-size:16px}.subject ul{padding:20px 0 0;margin:23px 0 0;list-style:none;border-top:1px solid #cfd7cf;font-size:14px;line-height:2.1}.subject li:before{content:'•';margin-right:10px;color:#6b734e}
+    .approach{background:var(--navy);color:var(--cream);padding:75px 0}.approach-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:95px}.approach .eyebrow{color:var(--gold)}.approach h2{margin-bottom:23px}.approach p{color:#c8d2d8;font-size:16px}.steps{margin:0;padding:0;list-style:none;counter-reset:steps}.steps li{display:grid;grid-template-columns:35px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid #405665;counter-increment:steps}.steps li:first-child{padding-top:0}.steps li:before{content:'0' counter(steps);font-size:12px;color:var(--gold);padding-top:3px}.steps h3{font-size:17px;font-weight:400;margin-bottom:6px}.steps p{font-size:16px;margin:0}
+    .format{padding:85px 0;display:grid;grid-template-columns:1fr 1.1fr;gap:95px;border-bottom:1px solid var(--line)}.format-details{display:grid;grid-template-columns:1fr 1fr;gap:28px}.format h3{font-family:Georgia,serif;font-size:24px;font-weight:400;margin:10px 0}.format p{font-size:16px;margin:0}.format-icon{font-size:23px;color:#7c602c}.contact{padding:90px 0 80px;text-align:center;max-width:720px;margin:auto}.contact .eyebrow{justify-content:center}.contact h2{font-size:clamp(40px,5vw,60px);margin-bottom:22px}.contact>p{max-width:490px;margin:0 auto 28px;font-size:16px}.email{display:block;margin:18px auto 0;font-size:14px;overflow-wrap:anywhere;text-underline-offset:4px}.contact .small{font-size:12px;margin:20px auto 0}footer{border-top:1px solid var(--line);padding:25px 0}.footer-content{display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}
+    .about{display:grid;grid-template-columns:1fr 1.5fr;gap:60px;padding:65px 0 80px}.about p{font-size:16px}.about p:last-child{margin-bottom:0}.subject{display:flex;flex-direction:column}.subject ul{margin-top:auto}.subject-inquiry{font-size:16px;max-width:760px;margin:0 auto 80px;text-align:center}.subject-inquiry a{text-underline-offset:4px}.subject-number{margin-bottom:24px}.hero-note,.credential span,.contact .small{font-size:14px}.art-label{position:relative;z-index:1}.nav-links a{min-height:44px;display:inline-flex;align-items:center}.nav-links .nav-contact{background:var(--navy);color:white}.nav-links .nav-contact:hover{background:#28485d;text-decoration:none}
+    @media(max-width:900px){.wrap{width:calc(100% - 48px)}.hero{gap:30px;padding:55px 0}.nav-links{gap:16px}.brand{font-size:15px}.subjects{gap:12px}.subject{padding:24px 20px}.credential{gap:16px}.credential+ .credential{padding-left:25px}.approach-grid,.format{gap:45px}}
+    @media(max-width:650px){.wrap{width:calc(100% - 40px)}.nav{min-height:80px;flex-wrap:wrap;padding:18px 0;gap:15px}.nav-links{width:100%;justify-content:space-between;gap:12px;font-size:12px}.nav-links .nav-contact{padding:6px 12px}.hero{grid-template-columns:1fr;padding:45px 0 32px;gap:35px}h1{font-size:clamp(36px,8.5vw,52px);letter-spacing:-1.5px}.art{aspect-ratio:auto;height:190px;max-width:none;width:100%;padding:18px}.art svg{top:8px;left:auto;right:8px;width:160px;opacity:.6}.art-label{max-width:150px;font-size:10px}.art-bottom{font-size:10px}.art-bottom span:last-child{font-size:14px}.credentials{grid-template-columns:1fr;margin-bottom:0}.credential{padding:23px 0}.credential+ .credential{border-left:0;border-top:1px solid var(--line);padding-left:0}.credential strong{min-width:145px;font-size:26px}.section-heading{display:block}.section-heading>p{margin-top:20px}.subjects{grid-template-columns:1fr;margin-bottom:24px}.subject-number{margin-bottom:22px}.subject{padding:26px}.approach{padding:50px 0}.approach-grid,.format{grid-template-columns:1fr;gap:30px}.format{padding:55px 0}.format-details{gap:24px}.contact{padding:58px 0}.footer-content{flex-direction:column;gap:5px}.about{grid-template-columns:1fr;gap:22px;padding:45px 0 55px}.subject-inquiry{margin-bottom:55px}.credential{flex-wrap:wrap;gap:10px 20px}.format-details{grid-template-columns:1fr}.nav-links{flex-wrap:wrap}.nav-links a{font-size:13px}.button{min-height:48px}}
+    .feedback{padding:60px 0 75px;border-top:1px solid var(--line);max-width:760px;margin:auto}.feedback h2{margin-bottom:20px}.feedback>p{font-size:16px}.feedback iframe{display:block;width:100%;border:0;min-height:700px}.feedback .form-fallback{font-size:14px;margin:18px 0 0}.form-fallback a{text-underline-offset:4px}
+    #subjects{padding-bottom:35px}.about{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:50px 0}.contact{padding:60px 0}.footer-content a{font-size:14px;text-underline-offset:4px;white-space:nowrap}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><nav class="wrap nav" aria-label="Main navigation">
+    <a class="brand" href="#"><span class="monogram" aria-hidden="true">ab.</span>Arnav Brahmasandra</a>
+    <div class="nav-links"><a href="#subjects">Subjects</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact ↗</a></div>
+  </nav></header>
+  <main id="main">
+    <!-- INTRODUCTION: Edit the headline and introductory text here. -->
+    <div class="wrap">
+      <section class="hero" aria-labelledby="hero-title">
+        <div><div class="eyebrow"><span class="dot"></span>Independent tutoring · Berkeley, CA</div>
+          <h1 id="hero-title">Math & science<br><em>with Arnav.</em></h1>
+          <p class="intro">I’m Arnav. I tutor math, chemistry, physics, and computing, from coursework to competition preparation.</p>
+          <a class="button" href="#contact">Ask about tutoring <span aria-hidden="true">↗</span></a>
+          <p class="hero-note">One-on-one · Online & in person in the Berkeley area</p>
+        </div>
+        <aside class="background-card" aria-label="My background">
+          <div class="eyebrow">My background</div>
+          <dl>
+            <div><dt>UC Berkeley</dt><dd>First-year Chemical Engineering PhD student researching computational statistical mechanics and active matter.</dd></div>
+            <div><dt>University of Chicago</dt><dd>BS in Computer Science and Statistics, 2025<br>Summa cum laude</dd></div>
+            <div><dt>USNCO Top 20 finalist</dt><dd>U.S. National Chemistry Olympiad, 2021</dd></div>
+          </dl>
+        </aside>
+      </section>
+      <section id="subjects" aria-labelledby="subjects-title">
+        <div class="section-heading"><div><div class="eyebrow">What we can work on</div><h2 id="subjects-title">Math, chemistry, and physics.</h2></div><p>Tell me what you’re studying or curious about—even if your topic isn’t listed here.</p></div>
+        <div class="subjects">
+          <article class="subject"><div class="subject-number">01 / MATH</div><h3>Math</h3><p>Drawing on my CS and statistics background, I can help you work through a mathematical argument, make sense of data, or reason through code.</p><ul><li>Math & calculus</li><li>Statistics & data science</li><li>Computer science</li></ul></article>
+          <article class="subject"><div class="subject-number">02 / CHEMISTRY</div><h3>Chemistry</h3><p>Chemistry is a particular strength, from my Olympiad experience to my PhD research. I welcome students exploring the subject, studying for a course, or preparing for competitions.</p><ul><li>Coursework & exam preparation</li><li>Olympiad & competition problems</li><li>Enrichment & further exploration</li></ul></article>
+          <article class="subject"><div class="subject-number">03 / PHYSICS</div><h3>Physics</h3><p>My statistical mechanics research connects physical systems with mathematical models. We’ll work on making that connection in your problems, from school coursework to questions beyond it.</p><ul><li>School & AP physics</li><li>Physical reasoning & mathematical models</li><li>Coursework & exam preparation</li></ul></article>
+        </div>
+        
+      </section>
+    </div>
+    <div class="wrap">
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div><div class="eyebrow">About me & how I tutor</div><h2 id="about-title">Working through<br>the reasoning.</h2></div>
+        <div><p>I enjoy rigorous problem-solving: figuring out why an argument works and what changes when its assumptions change. In tutoring, I want to help you understand ideas well enough to use them, rather than memorize a trick for one kind of question.</p><p>Bring a problem or topic you’re stuck on. I’ll ask you to talk through your thinking, work through the unclear steps with you, and have you try applying the idea to another problem.</p></div>
+      </section>
+      <!-- CONTACT: If changing your email, replace BOTH occurrences below. -->
+      <section id="contact" class="contact" aria-labelledby="contact-title"><div class="eyebrow">Get in touch</div><h2 id="contact-title">What would you<br>like to work on?</h2><p>Tell me the subject, the student’s grade or course level, and what you’d like help understanding or preparing for. Include your availability and whether you prefer Berkeley or online. I’ll reply to discuss fit and scheduling.</p>
+        <a class="button" href="mailto:abrahmasandra@gmail.com?subject=Tutoring%20inquiry">Ask about tutoring <span aria-hidden="true">↗</span></a>
+        <a class="email" href="mailto:abrahmasandra@gmail.com">abrahmasandra@gmail.com</a>
+        <p class="small">Students and parents are welcome to reach out.</p>
+      </section>
+
+    </div>
+  </main>
+  <footer><div class="wrap footer-content"><span>Arnav Brahmasandra · Berkeley, California</span><a href="feedback.html">Leave feedback</a><span>Independent tutoring. Not affiliated with or endorsed by UC Berkeley.</span></div></footer>
+</body>
+</html>
